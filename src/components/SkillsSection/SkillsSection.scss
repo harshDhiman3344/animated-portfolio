@@ -1,0 +1,36 @@
+  /* components/skillsSection/skillsSection.scss */
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 40px;
+  }
+
+  .skills-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Space between rows */
+    height: 85vh;
+    padding: 5vh 5vh;
+    background: linear-gradient(180deg,#0c0c1d,#111132 );
+    overflow: hidden;
+    position: relative;
+    
+    .slidingSkills{
+      position: absolute;
+      font-size: 50vh;
+      bottom: -120px;
+      white-space: nowrap;
+      color: #ffffff09;
+      width: 100%;
+      font-weight: bold;
+  }
+
+  }
+  
+  .skills-row {
+    display: flex;
+    gap: 20px; /* Space between skill boxes in a row */
+    justify-content: space-between; /* Evenly distribute space between skill boxes */
+  }
+
