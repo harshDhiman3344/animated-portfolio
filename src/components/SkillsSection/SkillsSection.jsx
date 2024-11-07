@@ -36,14 +36,15 @@ const BoxVariants={
 
 const SkillsSection = () => {
   const skills = [
-    { name: "JavaScript", detail: "Experience with ES6+, Express, React, and Node.js" },
-    { name: "Python", detail: "Proficient in data analysis, scripting, and automation" },
-    { name: "CSS", detail: "Skilled in responsive design, Flexbox, and Grid" },
-    { name: "HTML", detail: "Expert in semantic HTML and accessibility" },
-    { name: "Git", detail: "Version control and collaboration using Git and GitHub" },
-    { name: "SQL", detail: "Database management and querying with SQL" },
+    { name: "Python", detail: "Proficient in pythot" },
+    { name: "Web Development (MERN)", detail: "Experience with Express, React, and Node.js" },
+    { name: "Blender 3D", detail: "Skilled in 3D modeling" },
+    { name: "Figma", detail: "Experience in UI/UX design and prototyping" },
+    { name: "C++", detail: "Knowledge of object-oriented programming and algorithms" },
+    { name: "C#", detail: "Proficient in game development and scripting" },
     // Add more skills as needed
-  ];
+];
+
 
   // Group skills into rows of 3
   const rows = [];

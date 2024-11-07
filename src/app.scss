@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+
+@font-face {
+  font-family:BrunoAce;
+  src: url(/fonts/Bruno.woff);
+}
+
+*{
+  font-family: BrunoAce;
+}
+
 html{
     scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
@@ -7,11 +18,10 @@ html{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family:"DM Sans",sans-serif;
 }
 
 body{
-    background-color: #0c0c1d;
+    background: #2a394c;
     color: lightgray;
 }
 
@@ -45,13 +55,14 @@ a{
     height: 5vw;
     width: 5vw;
     border-radius: 50%;
-    background-color: #6600a578;
+    background-color: rgba(64, 123, 157, 0.486);
     z-index: 9;
     pointer-events: none;
 }
 
 #Skills{
     h1{
+        background: linear-gradient(180deg,#567c8d,#2a3b4e );
         color: beige;
         font-size: 50px;
         display: flex;

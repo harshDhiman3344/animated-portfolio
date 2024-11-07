@@ -1,6 +1,8 @@
 import "./hero.scss";
 import { motion } from "framer-motion";
 import SpacemanCanvas from "../spaceman/Spaceman.jsx"
+import Spline from '@splinetool/react-spline';
+
 
 const textVariants={
     initial:{
@@ -52,15 +54,14 @@ const hero = () => {
           <motion.h2 variants={textVariants}>HARSH DHIMAN</motion.h2>
           <motion.h1 variants={textVariants}>Developer & Designer</motion.h1>
           <motion.div className="buttons" variants={textVariants}>
-            <motion.button variants={textVariants}>See The Works</motion.button>
-            <motion.button variants={textVariants}>Contact me</motion.button>
+            <motion.button variants={textVariants}>Projects</motion.button>
+            <motion.button variants={textVariants}>About me</motion.button>
           </motion.div>
-          <motion.img src="/scroll.png" alt="" variants={textVariants} animate="scrollButton"/>
+          {/* <motion.img src="/scroll.png" alt="" variants={textVariants} animate="scrollButton"/> */}
         </motion.div>
       </div>
       <div className="avatarContainer">
-      <SpacemanCanvas rotationX={rotationX} rotationY={rotationY} scale={scale} position={position} />
-
+      {/* <Spline scene="https://prod.spline.design/Ec9DmVdRo2nmgPNS/scene.splinecode" /> */}
       </div>
       <motion.div className="slidingText" variants={scrollVariants} initial="initial" animate="animate">
         Python WebDeveloper Designer Engineer

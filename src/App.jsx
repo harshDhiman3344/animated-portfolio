@@ -7,7 +7,7 @@ import gsap from "gsap";
 import { motion } from "framer-motion";
 import SkillsSection from "./components/SkillsSection/SkillsSection.jsx";
 import { Center } from "@react-three/drei";
-
+import Spline from '@splinetool/react-spline';
 const App = () => {
 
   const [isClicked, setIsClicked] = useState(false);
@@ -51,11 +51,13 @@ const App = () => {
         <motion.div id="cursor" ></motion.div>
         <Navbar />
         <Hero />
+        
       </section>
       <section id="Skills"><h1>Skills</h1> 
       <SkillsSection />
       </section>
-      <section id="Projects">Parallax</section>
+      <section id="Projects">Parallax
+      </section>
       <section>Portfolio1</section>
       <section>Portfolio2</section>
       <section>Portfolio3</section>

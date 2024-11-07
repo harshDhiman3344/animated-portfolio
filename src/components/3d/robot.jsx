@@ -1,0 +1,1 @@
+<Spline scene="https://prod.spline.design/Ec9DmVdRo2nmgPNS/scene.splinecode" />
