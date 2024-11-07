@@ -2,12 +2,11 @@ import { useEffect, useState } from "react";
 import "./app.scss";
 import Hero from "./components/hero/hero.jsx";
 import Navbar from "./components/navbar/navbar";
-import Spaceman from "./components/spaceman/Spaceman.jsx";
 import gsap from "gsap";
 import { motion } from "framer-motion";
 import SkillsSection from "./components/SkillsSection/SkillsSection.jsx";
-import { Center } from "@react-three/drei";
-import Spline from '@splinetool/react-spline';
+import ProjectsSection from "./components/projects/ProjectsSection.jsx";
+
 const App = () => {
 
   const [isClicked, setIsClicked] = useState(false);
@@ -56,12 +55,12 @@ const App = () => {
       <section id="Skills"><h1>Skills</h1> 
       <SkillsSection />
       </section>
-      <section id="Projects">Parallax
+      <section id="Projects">Projects <ProjectsSection/>
       </section>
-      <section>Portfolio1</section>
+      {/* <section>Portfolio1</section>
       <section>Portfolio2</section>
-      <section>Portfolio3</section>
-      <section id="Contact">Contact</section>
+      <section>Portfolio3</section> */}
+      <section id="About">About</section>
     </div>
   );
 };

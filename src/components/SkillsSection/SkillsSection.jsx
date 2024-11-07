@@ -1,6 +1,6 @@
 import React from "react";
 import SkillBox from "../skillBox/SkillBox";
-import "./skillsSection.scss";
+import "./SkillsSection.scss";
 import { motion } from "framer-motion";
 
 const scrollVariants={
