@@ -1,6 +1,20 @@
 import React from "react";
 import { motion } from "framer-motion";
 import "./proj.scss"
+
+const scrollVariants={
+  initial:{
+      x:0,
+  },
+  animate:{
+      x:"-415%",
+      transition:{
+          duration:15,
+          repeatType:"mirror",
+          repeat:Infinity
+      }
+  },
+}
 const BoxVariants = {
   initial: {
     x: -500,
@@ -17,25 +31,31 @@ const BoxVariants = {
 };
 
 const ProjectsSection = () => {
-  // Your projects data
   const projects = [
     {
-      name: "Astrophotography App",
-      detail: "An app for astrophotography enthusiasts with features like astronomical news and event tracking.",
-      image: "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp",
-      link: "https://your-astrophotography-app-link.com",
+      name: "StudyTimer WebApp",
+      detail: "This tool is designed to help you stay focused during study sessions and manage your time effectively.",
+      image: "./StudyTimer.png",
+      link: "https://harshdhiman3344.github.io/StudyTimer/",
     },
     {
-      name: "MERN Blog Platform",
-      detail: "A full-featured blog platform built with the MERN stack, including user authentication and a CMS.",
-      image: "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp",
-      link: "https://your-mern-blog-platform-link.com",
+      name: "Sleek Music Player",
+      detail: "A simple, functional music player built with HTML, CSS, and JavaScript.",
+      image: "./MUSIC.png", // Replace with a relevant image
+      link: "https://harshdhiman3344.github.io/MusicPlayer/", // Replace with your project link
+  },
+  
+    {
+      name: "WeatherApp",
+      detail: "A functional weather app which uses API to tell accurate weather of the place.",
+      image: "./WEATHER.png",
+      link: "https://harshdhiman3344.github.io/WeatherApp/",
     },
     {
-      name: "3D Modeling Portfolio",
-      detail: "A portfolio showcasing 3D models and designs created in Blender, with downloadable assets and project breakdowns.",
-      image: "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp",
-      link: "https://your-3d-modeling-portfolio-link.com",
+      name: "BLENDER PROJECTS",
+      detail: "Things i have made in 3D software blender. click on the button to view all of them",
+      image: "./BLENDER.png",
+      link: "https://www.instagram.com/hoshiko3d/",
     },
   ];
 
@@ -55,6 +75,9 @@ const ProjectsSection = () => {
         </div>
         </div>
       ))}
+      <motion.div className="slidingProjects" variants={scrollVariants} initial="initial" animate="animate">
+        PROJECTS PROJECTS PROJECTS 
+      </motion.div>
     </div>
   );
 };

@@ -1,21 +1,28 @@
 .projectsContainer {
+  height: 100vh;
+    overflow: hidden;
     display: flex;
     flex-wrap: wrap;
-    gap: 1.5rem; 
+    gap: 5rem; 
     justify-content: center; 
     padding: 2rem;
+    padding-top: 20vh;
+    position: relative; //
   }
   
   .card-holder {
+    z-index: 10;
+    height: 400px;
     background-color: #ffffff; 
     border-radius: 0.5rem; 
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
     overflow: hidden; 
     width: 300px;
+    scale: 1.2;
     transition: transform 0.2s ease-in-out; 
   
     &:hover {
-      transform: translateY(-5px);
+      transform: translateY(-10px);
     }
   }
   
@@ -66,3 +73,14 @@
     }
   }
   
+  .slidingProjects {
+    pointer-events: none;
+    z-index: 0;
+    position: absolute;
+    font-size: 20rem; 
+    bottom: 20px; // 
+    white-space: nowrap;
+    color: #ffffff09;
+    font-weight: bold;
+    width: 100vw; //
+  }

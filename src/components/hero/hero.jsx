@@ -1,6 +1,6 @@
 import "./hero.scss";
 import { motion } from "framer-motion";
-import SpacemanCanvas from "../spaceman/Spaceman.jsx"
+// import SpacemanCanvas from "../spaceman/Spaceman.jsx"
 import Spline from '@splinetool/react-spline';
 
 const textVariants={
