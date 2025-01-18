@@ -1,4 +1,4 @@
-# My Portfolio Website
+# My Portfolio Website ✨✨✨
 
 Welcome to my portfolio website! This project showcases my work, skills, and interests as a developer and designer. It includes sections like "About Me," "Projects," and social media links, all designed to give you insight into who I am and what I do.
 
