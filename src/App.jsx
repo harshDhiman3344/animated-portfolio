@@ -6,6 +6,7 @@ import gsap from "gsap";
 import { motion } from "framer-motion";
 import SkillsSection from "./components/SkillsSection/SkillsSection.jsx";
 import ProjectsSection from "./components/projects/ProjectsSection.jsx";
+import AboutSection from "./components/about/aboutSection.jsx";
 
 const App = () => {
 
@@ -60,7 +61,8 @@ const App = () => {
       {/* <section>Portfolio1</section>
       <section>Portfolio2</section>
       <section>Portfolio3</section> */}
-      <section id="About">About</section>
+      <section id="About">About <AboutSection/>
+      </section>
     </div>
   );
 };
