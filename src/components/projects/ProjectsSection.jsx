@@ -46,10 +46,10 @@ const ProjectsSection = () => {
   },
   
     {
-      name: "WeatherApp",
-      detail: "A functional weather app which uses API to tell accurate weather of the place.",
-      image: "./WEATHER.png",
-      link: "https://harshdhiman3344.github.io/WeatherApp/",
+      name: "3D Music Visualizer",
+      detail: "A functional 3D app which generates mesmerizing visuals of any music (mp3) file.",
+      image: "./NEON-3D.png",
+      link: "https://harshdhiman3344.github.io/3dVisualizer/",
     },
     {
       name: "BLENDER PROJECTS",
