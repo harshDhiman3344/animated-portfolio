@@ -2,7 +2,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import Links from "./links/Links";
 import "./sidebar.scss";
-import ToggleButton from "./toggleButton/ToggleButton";
+import SideButton from "./ToggleButton/SideButton";
 
 const variants = {
   open: {
@@ -30,7 +30,7 @@ const Sidebar = () => {
       <motion.div className="bg" variants={variants}>
         <Links />
       </motion.div>
-      <ToggleButton setOpen={setOpen} />
+      <SideButton setOpen={setOpen} />
     </motion.div>
   );
 };
