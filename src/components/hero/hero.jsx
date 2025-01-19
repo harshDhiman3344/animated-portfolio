@@ -50,7 +50,7 @@ const hero = () => {
     <div className="Hero">
       <div className="wrapper">
         <motion.div className="textContainer" variants={textVariants} initial="initial" animate="animate">
-          <motion.h2 variants={textVariants}>HARSH DHIMAN</motion.h2>
+          <motion.h2 variants={textVariants}>HARSH</motion.h2>
           <motion.h1 variants={textVariants}>Developer & Designer</motion.h1>
           <motion.div className="buttons" variants={textVariants}>
             <motion.button variants={textVariants}>Projects</motion.button>
