@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 import SkillsSection from "./components/SkillsSection/SkillsSection.jsx";
 import ProjectsSection from "./components/projects/ProjectsSection.jsx";
 import AboutSection from "./components/about/aboutSection.jsx";
+import Videowall from "./components/hero/Videowall.mp4";
 
 const App = () => {
 
@@ -48,6 +49,7 @@ const App = () => {
   return (
     <div>
       <section id="Homepage">
+        <video src={Videowall} muted loop playsInline autoPlay></video>
         <motion.div id="cursor" ></motion.div>
         <Navbar />
         <Hero />

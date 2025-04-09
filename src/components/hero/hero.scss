@@ -3,21 +3,15 @@
     height: calc(100vh - 100px);
     overflow: hidden;
     position: relative;
-    background: linear-gradient(180deg,#2f4156,#567c8d );
+    // background: linear-gradient(180deg,#2f4156,#567c8d );
 
-    .avatarContainer{
-        height:100%;
-        position: absolute;
-        top: 0;
-        justify-content: right;
-        align-items: center;
-        width: 100%;
-    }
     .wrapper{
-        
+        overflow: hidden;
         max-width: 1366px;
         height: 100%;
-        // margin-left: 10%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
 
         .textContainer{
             // left: 30px;
@@ -27,19 +21,18 @@
             align-items: center;
             flex-direction: column;
             justify-content: center;
-            gap: 50px;
+            gap: 45px;
+            color:#ffffff;
 
             h2{
                 z-index: 10;
-                font-size: 30px;
-                color: #f3d3bf;
+                font-size: 2.2vw; 
                 letter-spacing: 7px;
             }
 
             h1{
-                color:#f3d3bf;
                 z-index: 10;
-                font-size: 50px;
+                font-size: 4.7vw;
             }
 
             .buttons{
@@ -47,6 +40,7 @@
                 z-index: 10;
                 gap: 10px;
                 button{
+                    font-size: 1vw;
                 padding: 20px;
                 border: 1px solid white;
                 border-radius: 10px;
@@ -60,8 +54,9 @@
                 width: 50px;
             }
         }
-
     }
+
+    
 
     .slidingText{
         z-index: -1;

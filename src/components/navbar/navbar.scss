@@ -1,14 +1,16 @@
 .Navbar{
     height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     .wrapper{
+        size: 110%;
+        gap: 5vw;
         max-width: 1366px;
         margin: auto;
-        margin-left: 10%;
-        margin-right: 10%;
         align-items: center;
         display: flex;
-        justify-content: space-between;
-        // background-color: rebeccapurple;
+        justify-content: right;
         height: 100%;
     }
 

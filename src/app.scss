@@ -9,6 +9,38 @@
   font-family: BrunoAce;
 }
 
+#Homepage{
+    overflow: hidden;
+    video{
+        z-index: 1;
+        position: absolute;
+        height: 100vh;
+        width: 100vw;
+        object-fit: cover;
+        overflow: hidden;
+    }
+    .Hero{
+        position: absolute;
+        z-index: 2;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .Navbar{
+        position: relative;
+        z-index: 3;
+        width: 100vw;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgba(0, 0, 0, 0.226);
+    }
+}
+
+
 html{
     scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
@@ -56,13 +88,13 @@ a{
     width: 5vw;
     border-radius: 50%;
     background-color: rgba(64, 123, 157, 0.486);
-    z-index: 9;
+    z-index: 10;
     pointer-events: none;
 }
 
 #Skills{
     h1{
-        background: linear-gradient(180deg,#567c8d,#2a3b4e );
+        background: #D6673A;
         color: beige;
         font-size: 50px;
         display: flex;

@@ -1,7 +1,6 @@
 import "./hero.scss";
 import { motion } from "framer-motion";
-// import SpacemanCanvas from "../spaceman/Spaceman.jsx"
-import Spline from '@splinetool/react-spline';
+
 
 const textVariants={
     initial:{
@@ -59,9 +58,7 @@ const hero = () => {
           {/* <motion.img src="/scroll.png" alt="" variants={textVariants} animate="scrollButton"/> */}
         </motion.div>
       </div>
-      <div className="avatarContainer">
-      {/* <Spline scene="https://prod.spline.design/Ec9DmVdRo2nmgPNS/scene.splinecode" /> */}
-      </div>
+      
       <motion.div className="slidingText" variants={scrollVariants} initial="initial" animate="animate">
         Python WebDeveloper Designer Engineer
       </motion.div>
